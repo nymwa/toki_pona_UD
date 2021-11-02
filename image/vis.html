@@ -1,0 +1,568 @@
+
+<html>
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+   <title>Toki Pona UD Visualization</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+   <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style.css"/>
+   <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
+   <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
+</head>
+<body>
+<div id="main" class="center">
+<div id="content">
+<script type="text/javascript">
+   console.time('loading libraries');
+   var root = 'https://universaldependencies.org/'; // filled in by jekyll
+   head.js(
+                     // External libraries
+                     // DZ: Copied from embedding.html. I don't know which one is needed for what, so I'm currently keeping them all.
+                     root + 'lib/ext/jquery.min.js',
+                     root + 'lib/ext/jquery.svg.min.js',
+                     root + 'lib/ext/jquery.svgdom.min.js',
+                     root + 'lib/ext/jquery.timeago.js',
+                     root + 'lib/ext/jquery-ui.min.js',
+                     root + 'lib/ext/waypoints.min.js',
+                     root + 'lib/ext/jquery.address.min.js'
+                  );
+</script>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	pan		NOUN			3	nsubj
+2	li		PART			3	aux
+3	moku		NOUN			0	root
+4	.		PUNCT			3	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	kili		NOUN			3	nsubj
+2	li		PART			3	aux
+3	suwi		ADJ			0	root
+4	.		PUNCT			3	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	jan		NOUN			3	nsubj
+2	li		PART			3	aux
+3	moli		VERB			0	root
+4	.		PUNCT			3	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	kala		NOUN			4	nsubj
+2	li		PART			4	aux
+3	lon		ADP			4	case
+4	telo		NOUN			0	root
+5	li		PART			6	aux
+6	pona		ADJ			4	conj:pred
+7	moku		ADV			6	advmod
+8	.		PUNCT			4	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	mi		PRON			2	nsubj
+2	pilin		VERB			0	root
+3	ike		ADV			2	advmod
+4	li		PART			5	aux
+5	moli		VERB			2	conj:pred
+6	.		PUNCT			2	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	lipu		NOUN			0	root
+2	loje		ADJ			1	amod
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	tomo		NOUN			0	root
+2	sina		PRON			1	nmod
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	tawa		VERB			0	root
+2	sewi		ADV			1	advmod
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	moku		NOUN			0	root
+2	mute		ADJ			1	amod
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	moku		VERB			0	root
+2	mute		ADV			1	advmod
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	pona		ADJ			0	root
+2	kute		ADV			1	advmod
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	ona		PRON			4	nsubj
+2	li		PART			4	aux
+3	lon		ADP			4	case
+4	ma		NOUN			0	root
+5	ni		DET			4	det
+6	.		PUNCT			4	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	soweli		NOUN			3	nsubj
+2	li		PART			3	aux
+3	lape		VERB			0	root
+4	lon		ADP			5	case
+5	insa		NOUN			3	obl
+6	lupa		NOUN			5	nmod
+7	.		PUNCT			3	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	soweli		NOUN			4	nsubj
+2	li		PART			4	aux
+3	lon		ADP			4	case
+4	tomo		NOUN			0	root
+5	mi		PRON			4	nmod
+6	li		PART			7	aux
+7	suwi		ADJ			4	conj:pred
+8	.		PUNCT			4	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	kasi		NOUN			3	nsubj
+2	li		PART			3	aux
+3	toki		VERB			0	root
+4	ala		ADV			3	advmod
+5	.		PUNCT			3	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	kasi		NOUN			3	nsubj
+2	li		PART			3	aux
+3	toki		VERB			0	root
+4	e		PART			5	aux
+5	ala		PRON			3	obj
+6	.		PUNCT			3	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	akesi		NOUN			3	nsubj
+2	li		PART			3	aux
+3	suwi		ADJ			0	root
+4	ala		ADV			3	advmod
+5	.		PUNCT			3	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	jan		NOUN			4	nsubj
+2	ala		ADJ			1	amod
+3	li		PART			4	aux
+4	moku		VERB			0	root
+5	e		PART			6	aux
+6	kiwen		NOUN			4	obj
+7	.		PUNCT			4	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	soweli		NOUN			3	nsubj
+2	li		PART			3	aux
+3	moku		VERB			0	root
+4	e		PART			5	aux
+5	kasi		NOUN			3	obj
+6	.		PUNCT			3	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	mama		NOUN			3	nsubj
+2	li		PART			3	aux
+3	alasa		VERB			0	root
+4	e		PART			5	aux
+5	kili		NOUN			3	obj
+6	e		PART			7	aux
+7	soweli		NOUN			5	conj:obj
+8	.		PUNCT			3	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	sina		PRON			2	nsubj
+2	moku		VERB			0	root
+3	ala		PART			4	aux
+4	moku		VERB			2	conj:rep
+5	e		PART			6	aux
+6	soweli		NOUN			2	obj
+7	?		PUNCT			2	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	ni		DET			3	nsubj
+2	li		PART			3	aux
+3	pipi		NOUN			0	root
+4	ala		PART			5	aux
+5	pipi		NOUN			3	conj:rep
+6	?		PUNCT			3	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	waso		NOUN			4	nsubj
+2	li		PART			4	aux
+3	tawa		ADP			4	case
+4	sewi		NOUN			0	root
+5	anu		CCONJ			6	cc
+6	seme		PRON			4	conj
+7	?		PUNCT			4	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	sina		NOUN			2	nsubj
+2	moku		VERB			0	root
+3	e		PART			4	aux
+4	seme		PRON			2	obj
+5	?		PUNCT			2	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	jan		NOUN			4	nsubj
+2	seme		PRON			1	nmod
+3	li		PART			4	aux
+4	kama		VERB			0	root
+5	?		PUNCT			4	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	sina		PRON			2	nsubj
+2	olin		VERB			0	nmod
+3	e		PART			4	aux
+4	mi		PRON			2	obj
+5	anu		CCONJ			6	cc
+6	ona		PRON			4	conj
+7	?		PUNCT			2	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	kala		NOUN			0	root
+2	suli		ADJ			1	amod
+3	mute		ADJ			1	amod
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	kala		NOUN			0	root
+2	pi		PART			3	aux
+3	suli		ADJ			1	amod
+4	mute		ADV			3	advmod
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	jan		NOUN			0	root
+2	Taro		PROPN			1	appos
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	toki		NOUN			0	root
+2	Inli		PROPN			1	appos
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	ma		NOUN			0	root
+2	Tosi		PROPN			1	appos
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	jan		NOUN			0	root
+2	Tosi		PROPN			1	appos
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	jan		NOUN			4	nsubj
+2	olin		ADJ			1	amod
+3	li		PART			4	aux
+4	pilin		VERB			9	advcl
+5	pona		ADV			4	advmod
+6	,		PUNCT			9	punct
+7	la		PART			9	aux
+8	mi		PRON			9	nsubj
+9	pilin		VERB			0	root
+10	pona		ADV			9	advmod
+11	.		PUNCT			9	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	tenpo		NOUN			7	advcl
+2	pini		ADJ			1	amod
+3	,		PUNCT			7	punct
+4	la		PART			7	aux
+5	mi		PRON			7	nsubj
+6	lon		ADP			7	case
+7	ma		NOUN			0	root
+8	Nijon		PROPN			7	appos
+9	.		PUNCT			7	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	tan		NOUN			7	advcl
+2	seme		PRON			1	nmod
+3	,		PUNCT			7	punct
+4	la		PART			7	aux
+5	jan		NOUN			7	nsubj
+6	li		PART			7	aux
+7	moli		VERB			0	root
+8	?		PUNCT			7	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	jan		NOUN			0	advcl
+2	luka		NUM			1	nummuod
+3	luka		NUM			2	compound
+4	tu		NUM			3	compound
+5	tu		NUM			4	compound
+6	wan		NUM			5	compound
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	jan		NOUN			4	nsubj
+2	Silo		PROPN			1	appos
+3	li		PART			4	aux
+4	kama		VERB			0	root
+5	nanpa		PART			6	aux
+6	tu		NUM			4	nummod
+7	wan		NUM			6	compound
+8	.		PUNCT			4	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	jan		NOUN			4	nsubj
+2	mute		ADJ			1	amod
+3	li		PART			4	aux
+4	esun		VERB			0	root
+5	e		PART			6	aux
+6	len		NOUN			4	obj
+7	laso		ADJ			6	amod
+8	jelo		ADJ			7	compound
+9	.		PUNCT			4	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	mi		PRON			2	nsubj
+2	tawa		VERB			0	root
+3	ala		ADV			2	advmod
+4	tan		ADP			5	case
+5	ni		DET			2	obl
+6	:		PUNCT			2	punct
+7	sijelo		NOUN			10	nsubj
+8	mi		PRON			7	nmod
+9	li		PART			10	aux
+10	ike		ADJ			5	acl
+11	.		PUNCT			2	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	mi		PRON			2	nsubj
+2	sona		VERB			0	root
+3	e		PART			4	aux
+4	ni		DET			2	obj
+5	tan		ADP			6	case
+6	lipu		NOUN			2	obl
+7	:		PUNCT			2	punct
+8	ona		PRON			10	nsubj
+9	li		PART			10	aux
+10	ike		ADJ			4	acl
+11	ala		ADV			10	advmod
+12	.		PUNCT			2	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	mi		PRON			2	nsubj
+2	pali		VERB			0	root
+3	mute		ADV			2	adj
+4	.		PUNCT			2	punct
+5	taso		CCONJ			7	cc
+6	mi		PRON			7	nsubj
+7	jo		VERB			0	root
+8	e		PART			9	aux
+9	mani		NOUN			7	obj
+10	lili		ADJ			9	amod
+11	.		PUNCT			7	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	moku		NOUN			7	nsubj
+2	ni		DET			1	det
+3	en		CCONJ			4	cc
+4	telo		NOUN			1	conj
+5	ni		DET			4	det
+6	li		PART			7	aux
+7	pona		ADJ			0	root
+8	a		INTJ			7	discourse
+9	.		PUNCT			7	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	jan		NOUN			8	vocative
+2	Janako		PROPN			1	appos
+3	o		PART			1	aux
+4	,		PUNCT			1	punct
+5	lawa		NOUN			8	nsubj
+6	sina		PRON			5	nmod
+7	li		PART			8	aux
+8	pona		ADJ			0	root
+9	.		PUNCT			8	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	mi		NOUN			4	nsubj
+2	wile		PROPN			4	aux
+3	tawa		PART			4	case
+4	ma		PUNCT			0	root
+5	Osaka		NOUN			4	appos
+6	.		PRON			4	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	jan		NOUN			7	nsubj
+2	Jumi		PROPN			1	appos
+3	li		PART			7	aux
+4	ken		AUX			7	aux
+5	ala		PART			6	aux
+6	ken		AUX			4	conj:rep
+7	moku		VERB			0	root
+8	e		PART			9	root
+9	kala		NOUN			7	obj
+10	?		PUNCT			7	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	jan		NOUN			4	nsubj
+2	mute		ADJ			1	amod
+3	o		PART			4	aux
+4	musi		VERB			0	root
+5	.		PUNCT			4	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	o		PART			2	aux
+2	kute		VERB			0	root
+3	.		PUNCT			2	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	sina		PRON			3	nsubj
+2	o		PART			3	aux
+3	moku		VERB			0	root
+4	mute		ADV			3	advmod
+5	.		PUNCT			3	punct
+</code></pre>
+
+<pre><code class="language-conllu">
+0	ROOT					0	root
+1	jan		NOUN			5	nsubj
+2	Juki		PROPN			1	appos
+3	o		PART			5	aux
+4	tawa		ADP			5	case
+5	tomo		NOUN			0	root
+6	li		PART			7	aux
+7	lape		VERB			5	conj:pred
+8	.		PUNCT			5	punct
+</code></pre>
+
+
+<!-- support for embedded visualizations -->
+<script type="text/javascript">
+   var root = 'https://universaldependencies.org/'; // filled in by jekyll
+   head.js(
+                  // We assume that external libraries such as jquery.min.js have already been loaded outside!
+                  // (See _layouts/base.html.)
+
+                  // brat helper modules
+                  root + 'lib/brat/configuration.js',
+                  root + 'lib/brat/util.js',
+                  root + 'lib/brat/annotation_log.js',
+                  root + 'lib/ext/webfont.js',
+                  // brat modules
+                  root + 'lib/brat/dispatcher.js',
+                  root + 'lib/brat/url_monitor.js',
+                  root + 'lib/brat/visualizer.js',
+
+                  // embedding configuration
+                  root + 'lib/local/config.js',
+                  // project-specific collection data
+                  root + 'lib/local/collections.js',
+
+                  // Annodoc
+                  root + 'lib/annodoc/annodoc.js',
+
+                  // NOTE: non-local libraries
+                  'https://spyysalo.github.io/conllu.js/conllu.js'
+               );
+
+   var webFontURLs = [
+                  //        root + 'static/fonts/Astloch-Bold.ttf',
+                  root + 'static/fonts/PT_Sans-Caption-Web-Regular.ttf',
+                  root + 'static/fonts/Liberation_Sans-Regular.ttf'
+               ];
+
+   var setupTimeago = function() {
+                  jQuery("time.timeago").timeago();
+               };
+
+   head.ready(function() {
+                  setupTimeago();
+
+                  // mark current collection (filled in by Jekyll)
+                  Collections.listing['_current'] = 'u-overview';
+
+                  // perform all embedding and support functions
+                  Annodoc.activate(Config.bratCollData, Collections.listing);
+               });
+</script>
+</div>
+</body>
+</html>
+
