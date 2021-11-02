@@ -189,16 +189,32 @@ kuteは，名詞では「耳」，動詞では「聞く」，副詞では「聞�
 
 ![ona li lon ma ni](./image/ona_li_lon_ma_ni.png)
 
+代名詞ona「彼，彼女，それ」が主語'nsubj'で，述部"li lon ma ni"で，文の意味は「それはここにある」です．
+前置詞句"lon ma ni"の主辞は"ma"「場所」で，限定詞"ni"は，文脈における指示をする"その"の意味の役割を果たしており，係り受けタグはdetとなります．
+"ma ni"で，「その場所」という意味となり，ここでは「ここ」と訳しています．
 
 ### soweli li lape lon insa lupa.
 
 ![soweli li lape lon insa lupa](./image/soweli_li_lape_lon_insa_lupa.png)
 
+訳は「動物が穴の中で眠る」です．
+主語はsoweli「かわいい動物」です．≡╹ω╹≡そうぇり．
+文の主辞は動詞lape「眠る」で，その場所を前置詞句"lon insa lupa"で表しています．
+この前置詞句は，斜格要素と呼ばれるタグで，トキポナUDにおいては，述部にかかる前置詞句であることを表します．
+
+名詞insa「〜の内部」は位置関係を表す名詞であり，"lon insa 〜"は「〜の中に，〜の中で」という意味です．
+名詞lupa「穴」は，insaに係り，これは名詞修飾語nmodです．
+
+述部に係る名詞句は主語nsubj，目的語objがあります．
+oblは，述部に係る名詞句以外の句を表し，そのようなものは他に，呼格vocativeがあります．
 
 ### soweli lon tomo mi li suwi.
 
 ![soweli li lon tomo mi li suwi](./image/soweli_li_lon_tomo_mi_li_suwi.png)
 
+訳は「私の家にいる動物はかわいい」です．
+述部は"lon tomo mi"「私の家で」と"li suwi"「かわいい」です．
+代名詞"mi"は"tomo"に名詞修飾nmod，"suwi"は"tomo"に述部の等位構造で係っています．
 
 ## 否定
 
