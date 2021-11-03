@@ -1,7 +1,5 @@
 # Toki Pona UD
 
-## はじめに
-
 困ったことに，世の中にはたくさんの言語があります．
 異なる言語の間で，共通の規則を用いて依存構造のアノテーションを行うための枠組みとして，Universal Dependencyと呼ばれるものがあります．
 また，その中で使われている品詞体系として，Universal POS tagsと呼ばれるものもあります．
@@ -255,7 +253,7 @@ akesiは「トカゲ・爬虫類」の意味です．
 
 ![jan ala li moku e kiwen](./image/jan_ala_li_moku_e_kiwen.png)
 
-このalaは形容詞「誰も〜ない」の意で，「誰も石を食べない」となります．kiwenは石です．
+このalaは形容詞「誰も〜ない」の意で，「誰も石(kiwen)を食べない」となります．
 
 ## 動作の対象
 
@@ -276,7 +274,7 @@ akesiは「トカゲ・爬虫類」の意味です．
 
 ## 諾否疑問
 
-nymwaさんはこれのせいで大田区を土下座しながら一周することになってしまいました．
+nymwaさんはこれのせいで土下座しながら大田区を一周することになってしまいました．
 
 ### sina moku ala moku e soweli?
 
@@ -293,6 +291,8 @@ alaは否定の副詞ではなく，小辞(PART)としました．
 もし，alaが否定語であるならば，トキポナの原則から，位置的に前にある語句に係るはずですが，前にある動詞句に否定語が副詞修飾すると解釈する理由がありません．
 そのため，このalaは小辞(PART)と捉え，後ろ側の動詞が取るauxiliaryと解釈することとしています．
 
+疑問符?は，'.'と同様に文の主辞に係り，タグはpunctです．
+
 ### ni li pipi ala pipi?
 
 ![ni li pipi ala pipi](./image/ni_li_pipi_ala_pipi.png)
@@ -305,7 +305,8 @@ alaは否定の副詞ではなく，小辞(PART)としました．
 
 ![waso li tawa sewi anu seme](./image/waso_li_tawa_sewi_anu_seme.png)
 
-「鳥(waso)は飛び(tawa sewi)ますか」です．
+「鳥(waso)は飛び(tawa sewi)ますか」
+
 諾否疑問を表す２つめの方法は，文末に"anu seme?"を付けるものです．
 等位接続詞anuは，品詞タグはCCONJで，係り受けタグはccです．
 ccは並置される後ろ側の要素を主辞とするため，疑問代名詞semeに係ります．
@@ -318,16 +319,29 @@ tawa sewiとsemeの並置は，接続詞を用いる等位構造のため，係�
 
 ![sina moku e seme](./image/sina_moku_e_seme.png)
 
+「あなたは何(seme)を食べますか」
+
+疑問代名詞semeを用いて疑問詞疑問文を作ることができます．
+semeは代名詞として扱っているので，名詞修飾語nmodとしてタグ付けされます．
+ただし，その意味が形容詞的であることも許容されます．
 
 ### jan seme li kama?
 
 ![jan seme li kama](./image/jan_seme_li_kama.png)
+
+「誰が来ますか」
+
+jan seme「誰」，ma seme「どこ」，tenpo seme「いつ」などの定形表現も，semeの係り受けはnmodです．
 
 
 ### sina olin e mi anu ona?
 
 ![sina olin e mi anu ona](./image/sina_olin_e_mi_anu_ona.png)
 
+「あなたは私とあのひとのどちらを愛しますか」
+
+接続詞anuを用いて選択疑問文を作ることができます．
+anuはCCONJで，係り受けタグがcc，等位構造はconjで表されます．
 
 ## piの用法
 
@@ -335,11 +349,32 @@ tawa sewiとsemeの並置は，接続詞を用いる等位構造のため，係�
 
 ![kala suli mute](./image/kala_suli_mute.png)
 
+「たくさんの(mute)大きな(suli)魚(kala)」
+
+トキポナでは，修飾関係は原則左結合です．
+左結合ってなんだという話ですが，係り受けの順番が引き算と同じという意味です．
+例えば，引き算は "3 - 2 + 1" と書いたとき，まず "3 - 2 (=1)" を計算し，次に "1 + 1"を計算します．
+また，これは，この式が "(3 - 2) + 1" と書き直しても同じということです．このように，３つの要素があったときに，左側の２つの要素が先にくっつく性質を左結合性と言います．
+ちなみに，右結合性の例としては，べき乗があります．（2^3^4 = 2^(3^4)）
+
+kala suli muteの場合，修飾関係は，((kala suli) mute)と書くことができます．左結合なので，左側の"kala suli"が優先的にくっつきます．
+"kala suli"は「大きい魚」であり，それに，mute「たくさんの」が付くため，"kala suli mute"で「たくさんの大きな魚」です．
+
+suliはkalaに係るため，その主辞はkalaであり，muteは"kala suli"に係るため，その主辞kalaに係ります．
 
 ### kala pi suli mute
 
 ![kala pi suli mute](./image/kala_pi_suli_mute.png)
 
+「とても(mute)大きい(suli)魚(kala)」
+
+一方で，トキポナの原則である左結合の枠組みを外れた形での修飾関係を作りたい場合，小辞'pi'を使うことで実現できます．
+小辞'pi'が用いられた位置は，修飾の結びつきの優先度が低くなります．
+"kala pi suli mute"の場合，左結合の原則に基づけば，"kala suli"が優先的に結びつきますが，'pi'があるためにそうはならず，"suli mute"が優先的に結びつきます．
+そのため，修飾関係は，(kala pi (suli mute))となります．
+この場合，suliは形容詞「大きい」で，それに係るmuteは副詞「とても」であり，"kala pi suli mute"は「とても大きい魚」という意味になります．
+
+muteはsuliに係るため，その主辞はsuliであり，suliは"kala"に係るため，その主辞はkalaになります．
 
 ## 固有名詞
 
@@ -347,12 +382,21 @@ tawa sewiとsemeの並置は，接続詞を用いる等位構造のため，係�
 
 ![jan Talo](./image/jan_Talo.png)
 
+「太郎（人名）」
+
+固有名詞(PROPN)は，同格apposで係ります．
+
 ![toki Inli](./image/toki_Inli.png)
+
+「英語 (English)」
 
 ![ma Tosi](./image/ma_Tosi.png)
 
+「ドイツ (Deutsch)」
+
 ![jan Tosi](./image/jan_Tosi.png)
 
+「ドイツ人」
 
 ## laの用法
 
@@ -398,7 +442,7 @@ tawa sewiとsemeの並置は，接続詞を用いる等位構造のため，係�
 ![mi sona e ni tan lipu: ona li ike ala](./image/mi_sona_e_ni_tan_lipu_:_ona_li_ike_ala.png)
 
 
-## 小辞
+## （トキポナ公式本で言うところの）小辞
 
 Toki Ponaの公式文法書では小辞(particle)という表現が使われていますが，これは，UDのparticleとは意味が異なってきます．
 
