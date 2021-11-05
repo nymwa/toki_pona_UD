@@ -387,18 +387,36 @@ muteはsuliに係るため，その主辞はsuliであり，suliは"kala"に係�
 「太郎（人名）」
 
 固有名詞(PROPN)は，同格apposで係ります．
+これは，トキポナにおける固有名詞が名詞修飾を行うものではないと考えるためです．
+英語において，"President Obama"の'Obama'が同格であるのと同じです．
 
 ![toki Inli](./image/toki_Inli.png)
 
 「英語 (English)」
 
+言語名が同格で表されています．
+
 ![ma Tosi](./image/ma_Tosi.png)
 
 「ドイツ (Deutsch)」
 
+maは場所の意味です．
+
+地名が同格で表されています．
+
 ![jan Tosi](./image/jan_Tosi.png)
 
 「ドイツ人」
+
+Tosiを「ドイツ（地名）」だと考えると，「ドイツの人」という意味で，同格ではなく名詞修飾と言えることになります．
+しかし，その場合，"jan pi ma Tosi"と言う方が適切であり，この場合のTosiは「ドイツ人」を指す集合的な意味の固有名詞とする方が自然だと考えられます．
+そのため，この場合も，係り受けはapposになります．
+
+トキポナにおける固有名詞は，例えば，単独で用いることができないなど，その用法が自然言語によく見られるものと異なっており，
+係り受けをどのように解釈するのが適切なのか非常に難しいです．
+名詞修飾と考えるべき場合，敬称と考えるべき場合，あるいは，固有名詞側が主辞となるべき場合などがないと言い切ることはできません．
+トキポナにおける固有名詞の面白い用法について気づいた人は教えてください．
+≡╹ω╹≡をさしあげます．
 
 ## laの用法
 
@@ -406,7 +424,7 @@ muteはsuliに係るため，その主辞はsuliであり，suliは"kala"に係�
 
 ![jan olin li pilin pona, la mi pilin pona](./image/jan_olin_li_pilin_pona_,_la_mi_pilin_pona.png)
 
-「恋人がうれしければ私もうれしい」
+「恋人(jan olin)がうれしけ(pilin pona)れば私もうれしい」
 
 小辞laを用いて "文1, la 文2" とした場合，「文1ならば，文2」という，条件の文ができます．
 
@@ -423,6 +441,12 @@ laの前に来るカンマはなくてもよく，ある場合は，後側の文
 
 「私は昔，日本に住んでいた」
 
+"時間, la 文"で，「（時間）に（文）」という文を作ることができます．
+"tenpo pini"は，「過去の時点で」「かつて」「昔」という意味の時間を表す名詞句で，laの主動詞に係る斜格要素oblとタグ付けされます．
+laを用いる時間の表現は，"lon tenpo ..."のlonを省略し移動させたものと捉えることもできますが，
+それを強く支持する理由はなく，この場合は，格標識を伴わない斜格要素と考えるのがよいだろうと思います．
+
+"ken la"「おそらく」などの表現もありますが，これは副詞の特殊な用法と捉え，kenは副詞ADVで，文の主辞に副詞修飾語advmodとして係るとします．
 
 ### tan seme, la jan li moli?
 
@@ -430,11 +454,18 @@ laの前に来るカンマはなくてもよく，ある場合は，後側の文
 
 「どうして人は死ぬのですか」
 
+"前置詞句 la 文"は，文中の前置詞句を文頭に倒置させた文と解釈できます．
+そのため，係り受けは斜格要素oblとなります．
+文頭に移動することで，話題化・主題化を行っていると考えることができます．
+この例では，疑問代名詞を含む前置詞句"tan seme"を文頭に移動させています．
+疑問代名詞を含む前置詞句のlaを用いた文頭への移動は，トキポナにおいてよく見られ，wh-移動との類似性も指摘できるかもしれません．
+
+
 ## 数と色
 
 ### jan luka luka tu tu wan
 
-![jan luka luka tu tu wan](./image/jan_luka_tu_tu_wan.png)
+![jan luka luka tu tu wan](./image/jan_luka_luka_tu_tu_wan.png)
 
 
 ### jan Silo li kama nanpa tu wan.
@@ -445,6 +476,20 @@ laの前に来るカンマはなくてもよく，ある場合は，後側の文
 ### jan mute li esun e len laso jelo.
 
 ![jan mute li esun e len laso jelo](./image/jan_mute_li_esun_e_len_laso_jelo.png)
+
+
+## 複合語に関する補足
+
+jan Nankoの例にはないですが，数と色の表現以外でトキポナに現れる複合語について，例を追加して説明します．
+
+### ma tomo Nakoja li pona mute mute mute.
+
+![ma tomo Najoja li pona mute mute mute](./image/ma_tomo_Nakoja_li_pona_mute_mute_mute.png)
+
+
+### ma tomo Osaka en ma tomo Tokijo li ike a a a!
+
+![ma tomo Osaka en ma tomo Tokijo li ike a a a](./image/ma_tomo_Osaka.png)
 
 
 ## 文を受けるni
