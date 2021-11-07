@@ -333,6 +333,9 @@ semeは代名詞として扱っているので，名詞修飾語nmodとしてタ
 
 jan seme「誰」，ma seme「どこ」，tenpo seme「いつ」などの定形表現も，semeの係り受けはnmodです．
 
+トキポナにおいては，例えば，"jan seme li lon ma seme?"など，疑問代名詞が複数現れる文は非文であることが多いと考えられます．
+自分は，このような種類の文で非文にならない例がどれぐらいあるのかよくわかっていません．
+気づいた方は教えていただけると助かります．
 
 ### sina olin e mi anu ona?
 
@@ -441,12 +444,13 @@ laの前に来るカンマはなくてもよく，ある場合は，後側の文
 
 「私は昔，日本に住んでいた」
 
-"時間, la 文"で，「（時間）に（文）」という文を作ることができます．
-"tenpo pini"は，「過去の時点で」「かつて」「昔」という意味の時間を表す名詞句で，laの主動詞に係る斜格要素oblとタグ付けされます．
-laを用いる時間の表現は，"lon tenpo ..."のlonを省略し移動させたものと捉えることもできますが，
-それを強く支持する理由はなく，この場合は，格標識を伴わない斜格要素と考えるのがよいだろうと思います．
+"名詞句, la 文"で，「（名詞句）に（文）」という文を作ることができます．
+"tenpo pini"は，「過去の時点で」「かつて」「昔」という意味の時間を表す名詞句で，laの後ろの文の述部に係る斜格要素oblとタグ付けされます．
+トキポナ公式本では，これは，"lon 名詞句"のlonを省略して，文頭に移動させたものとしています．
+そのため，このlaの前の名詞句は，格標識を伴わない斜格要素と考えています．
 
-"ken la"「おそらく」などの表現もありますが，これは副詞の特殊な用法と捉え，kenは副詞ADVで，文の主辞に副詞修飾語advmodとして係るとします．
+"ken la"「おそらく」などの表現もありますが，"ken"を名詞句と捉えたり，"lon ken"を前置詞句と捉えることは不自然であるため，
+これは，副詞の特殊な用法と捉え，kenは副詞ADVで，文の主辞に副詞修飾語advmodとして係るとします．
 
 ### tan seme, la jan li moli?
 
@@ -459,38 +463,101 @@ laを用いる時間の表現は，"lon tenpo ..."のlonを省略し移動させ
 文頭に移動することで，話題化・主題化を行っていると考えることができます．
 この例では，疑問代名詞を含む前置詞句"tan seme"を文頭に移動させています．
 疑問代名詞を含む前置詞句のlaを用いた文頭への移動は，トキポナにおいてよく見られ，wh-移動との類似性も指摘できるかもしれません．
+また，論理関係を表す"tan ni, la..."も，よく用いられます．
 
+注意点として，laによって移動することができるのは，斜格要素の前置詞句に限ります．
+述部の前置詞句は，laによって移動できないと考えられます．
+例えば，"ona li lon seme?"「彼はどこにいる？」という文は，述語が前置詞句です．
+これを無理矢理文頭に移動させると，"lon seme la ona li?"とできますが，liは単独で述語となれず，これは非文です．"lon seme la ona?"としても，非文です．
+
+laを用いた前置詞句の移動については，個人的に２つ未解決な点があります．
+１つ目は，niを用いて表される内容の内部でも可能であるかという点です．
+例えば，"sina sona e ni: ona li kama lon tenpo ni."「彼が今来たということをあなたは知っている」という文（この文に出てくる'ni:'の用法は後で説明があります）の，"lon tenpo ni"は，
+"sina sona e ni: tenpo ni la ona li kama."と言い換えることができるのでしょうか？
+文法的な問題点はないかもしれませんが，これを許容するかという点は，人によって意見が分かれるのではないかと思っています．
+もしかしたら，多くの人がlaによる前置詞句の移動を不自然と捉えるような別の文例があるかもしれません．
+laによる前置詞句の移動は，話題や焦点の問題とも関連しており，niが導く内容の節での問題は，従属節における話題性の問題とも捉えることができるかもしれません．
+２つ目は，前置詞句が文をまたいで移動することは許されるのかという点です．
+例えば，"sina sona e ni: ona li kama lon tenpo ni."を"tenpo ni la sina sona e ni: ona li kama."と書き直すと意味が変わってしまいます．
+しかし，このような文をまたいだ前置詞句の移動が文意を変えず可能である場合というのはあるのでしょうか？
+これらの問題は未だにわかっていないのですが，なにかおもしろい文例が思いついた場合は教えていただけると助かります．
+面白い文例に対しては，≡╹ω╹≡をさしあげます．
 
 ## 数と色
 
-### jan luka luka tu tu wan
+### jan luka luka tu wan
 
-![jan luka luka tu tu wan](./image/jan_luka_luka_tu_tu_wan.png)
+![jan luka luka tu wan](./image/jan_luka_luka_tu_wan.png)
 
+「13 (= 5 + 5 + 2 + 1)人の人」
+
+トキポナでは，数は'wan'「1」, 'tu'「2」, 'luka'「5」の組み合わせで表します．
+13は，5で割った商が2，余りが3，
+3は，2で割った商が1，余りが1であり，
+13 = 5 * 2 + 2 * 1 + 1となるため，13は，luka luka tu wanと表されます．
+
+数には基数と序数があります．基数は"量"「１個，２個，...」，序数は"順番"「１つ，２つ，...」です．
+日本語では基数と序数の区別は"個，番"などの類別詞が担います．英語では，oneに対するfirstなど，語彙が別になっています．
+トキポナでは，数はそのままの形では基数です．
+"luka luka tu wan"のように複数の語が並びますが，これは１つの複合語として捉えます．hot dogが複合名詞であるのと同じと考えていいと思います．
+複合語は，compoundタグによってその係り受けを表します．複合語を作る語の列は，図のように鎖状に係り受けを形成するものとします．
+この基数は，前にある単語の個数を示します．その係り受けはnummodタグで表されます．
+トキポナの原則では，複数の語が並ぶ場合，左側のペアから強く結びつくため，このような係り受けは一見不自然に見えますが，
+数は複合語であり，１つの語とみなすという立場なら，このような問題は起きません．
 
 ### jan Silo li kama nanpa tu wan.
 
 ![jan Silo li kama nanpa tu wan](./image/jan_Silo_li_kama_nanpa_tu_wan.png)
 
+「次郎は三番目(nanpa tu wan)に到着し(kama)た」
+
+トキポナでは，序数は"nanpa + 数"で表されます．
+この際，nanpaは数を主辞とする小辞とします．
+nanpaを名詞として，数の主辞がnanpaであるとすると，"tu wan"がnanpaでなくkamaに係るという解釈を許すことになり，"kama pi nanpa tu wan"とする必要が生ずる可能性があります．
+また，nanpaを前置詞とすると，"nanpa tu wan la"のように，laを用いた前置詞句の移動を許すかという問題が発生します．
+これが，序数を表すnanpaを小辞とする理由です．
+
+序数が名詞に係る場合は，名詞の順番を表す数としてnummodで係ります．
+"jan nanpa tu"「２番目の人」のtuは"jan <-- nummod -- tu"となります．
+しかし，この例文の"nanpa tu wan"は，動詞kamaに係っているため，副詞修飾語であり，advmodとなります．
 
 ### jan mute li esun e len laso jelo.
 
 ![jan mute li esun e len laso jelo](./image/jan_mute_li_esun_e_len_laso_jelo.png)
 
+「多くのひと(jan mute)が緑色(lase jelo)の服(len)を買っ(esun)ている」
 
-## 複合語に関する補足
+lasoは青，jeloは黄色です．これらの色を混ぜると緑になるため，トキポナでは，laso jeloと並べることで緑を表現します．
+このように色を表す言葉を並べて，別の色を表現する場合，数と同様に，これを複合語とみなします．
+そのため，"laso jelo"は係り受けタグcompoundで鎖状に結ばれ，１つの形容詞としてlenに係ります．
+そのため，この係り受けタグはamodとなります．
 
-jan Nankoの例にはないですが，数と色の表現以外でトキポナに現れる複合語について，例を追加して説明します．
+"laso jelo"は複合語なので，"len pi laso jelo"とする必要はありません．
+
+## 反復
+
+jan Nankoの例にはないですが，トキポナでは反復による強調が可能です．
+これらの表現は，公式本に載っているものではありませんが，広く用いられています．
+さらに，数・色と同じで複合語として解釈するとうまく説明できるため，ここで例を追加して説明します．
 
 ### ma tomo Nakoja li pona mute mute mute.
 
-![ma tomo Najoja li pona mute mute mute](./image/ma_tomo_Nakoja_li_pona_mute_mute_mute.png)
+![ma tomo Nakoja li pona mute mute mute](./image/ma_tomo_Nakoja_li_pona_mute_mute_mute.png)
 
+「名古屋はとてもとても良いです」
+
+"ma tomo Nakoja li pona mute."であれば，「名古屋はとても良い」ですが，このmuteを複数回反復することで，muteの度合いを強くすることができます．
+この場合，それぞれのmuteは単独でponaに係っているのではなく，"mute mute mute"という１つの副詞修飾句とみなすべきです．
+そのため，トキポナUDでは，これを反復による複合語を表すタグ，compound:redupによって表します．
 
 ### ma tomo Osaka en ma tomo Tokijo li ike a a a!
 
 ![ma tomo Osaka en ma tomo Tokijo li ike a a a](./image/ma_tomo_Osaka.png)
 
+「大阪と東京は悪いんだよ！」
+
+間投詞の反復は，トキポナ公式本にも出てきます．これも，compound:redupで表されます．
+文全体の語気を強める間投詞は，文の主辞に係りますが，これはdiscourseタグで表されることになっています．
 
 ## 文を受けるni
 
@@ -498,10 +565,13 @@ jan Nankoの例にはないですが，数と色の表現以外でトキポナ�
 
 ![mi tawa ala tan ni: sijelo mi li ike](./image/mi_tawa_ala_tan_ni_:_sijelo_mi_li_ike.png)
 
+「体調が悪いので私はお休みします」
+
 ### mi sona e ni tan lipu: ona li ike ala.
 
 ![mi sona e ni tan lipu: ona li ike ala](./image/mi_sona_e_ni_tan_lipu_:_ona_li_ike_ala.png)
 
+「私は本で読んで，あのひとは悪くないと知っている」
 
 ## （トキポナ公式本で言うところの）小辞
 
@@ -511,16 +581,19 @@ Toki Ponaの公式文法書では小辞(particle)という表現が使われて�
 
 ![mi pali mute taso mi jo e mani lili](./image/mi_pali_mute_taso_mi_jo_e_mani_lili.png)
 
+「私はよく働いている．しかし私は貧しい」
 
 ### moku ni en telo ni li pona a.
 
 ![moku ni en telo ni li pona a](./image/moku_ni_en_telo_ni_li_pona_a.png)
 
+「この食べ物と飲み物はおいしいなあ」
 
 ### jan Janako o, lawa sina li pona.
 
 ![jan Janako o, lawa sina li pona](./image/jan_Janako_o_,_lawa_sina_li_pona.png)
 
+「花子さん，あなたは頭がいい」
 
 ## 助動詞
 
@@ -528,11 +601,13 @@ Toki Ponaの公式文法書では小辞(particle)という表現が使われて�
 
 ![mi wile tawa ma Osaka](./image/mi_wile_tawa_ma_Osaka.png)
 
+「私は大阪に行きたい」
 
 ### jan Jumi li ken ala ken moku e kala?
 
 ![jan Jumi li ken ala ken moku e kala](./image/jan_Jumi_li_ken_ala_ken_moku_e_kala.png)
 
+「ゆみさんは魚を食べられますか」
 
 ## 命令
 
@@ -540,21 +615,25 @@ Toki Ponaの公式文法書では小辞(particle)という表現が使われて�
 
 ![jan mute o musi](./image/jan_mute_o_musi.png)
 
+「皆さまどうぞお楽しみください」
 
 ### o kute.
 
 ![o kute](./image/o_kute.png)
 
+「聞いてください」
 
 ### sina o moku mute.
 
 ![sina o moku mute](./image/sina_o_moku_mute.png)
 
+「あなたはたくさん食べてください」
 
 ### jan Juki o tawa tomo li lape.
 
 ![jan Juki o tawa tomo li lape](./image/jan_Juki_o_tawa_tomo_li_lape.png)
 
+「ゆきさんは帰って寝てください」
 
 ## わかったこと・おもったこと・わからないこと
 
