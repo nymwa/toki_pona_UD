@@ -554,7 +554,7 @@ jan Nankoの例にはないですが，トキポナでは反復による強調�
 
 ![ma tomo Osaka en ma tomo Tokijo li ike a a a](./image/ma_tomo_Osaka.png)
 
-「大阪と東京は悪いんだよ！」
+「[大阪と東京は悪いんだよ！](https://ja.wikipedia.org/wiki/%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%81%AF%E3%81%88%E3%81%88%E3%82%88!%E3%82%84%E3%81%A3%E3%81%A8%E3%81%8B%E3%82%81)」
 
 間投詞の反復は，トキポナ公式本にも出てきます．これも，compound:redupで表されます．
 文全体の語気を強める間投詞は，文の主辞に係りますが，これはdiscourseタグで表されることになっています．
