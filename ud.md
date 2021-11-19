@@ -618,17 +618,27 @@ Toki Ponaの公式文法書では小辞(particle)という表現が使われて�
 
 「私はよく働いている．しかし私は貧しい」
 
+接続詞tasoは，逆接や対比を表します．
+文の主辞からccで係ります．
+文と文の間では係り受けはしません．
+
 ### moku ni en telo ni li pona a.
 
 ![moku ni en telo ni li pona a](./image/moku_ni_en_telo_ni_li_pona_a.png)
 
 「この食べ物と飲み物はおいしいなあ」
 
+主語が複数以上の部分からなる場合は，接続詞enで並べます．
+enは，後側の要素からccで係ります．後側の要素の主辞は先頭の要素の主辞にconjで係ります．
+
 ### jan Janako o, lawa sina li pona.
 
 ![jan Janako o, lawa sina li pona](./image/jan_Janako_o_,_lawa_sina_li_pona.png)
 
 「花子さん，あなたは頭がいい」
+
+小辞oを名詞句に後置させ，文頭に置くことで呼びかけを表すことができます．
+oは名詞句にauxで係り，呼びかけの名詞句は文の主辞にvocative（呼格）で係ります．
 
 ## 助動詞
 
