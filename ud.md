@@ -536,7 +536,7 @@ nanpaを名詞として，数の主辞がnanpaであるとすると，"tu wan"�
 
 ![jan mute li esun e len laso jelo](./image/jan_mute_li_esun_e_len_laso_jelo.png)
 
-「多くのひと(jan mute)が緑色(lase jelo)の服(len)を買っ(esun)ている」
+「多くのひと(jan mute)が緑色(laso jelo)の服(len)を買っ(esun)ている」
 
 lasoは青，jeloは黄色です．これらの色を混ぜると緑になるため，トキポナでは，laso jeloと並べることで緑を表現します．
 このように色を表す言葉を並べて，別の色を表現する場合，数と同様に，これを複合語とみなします．
