@@ -214,7 +214,7 @@ oblは，斜格要素(oblique)を表すタグで，トキポナUDにおいては
 名詞insa「〜の内部」は位置関係を表す名詞であり，"lon insa 〜"は「〜の中に，〜の中で」という意味です．
 名詞lupa「穴」は，insaに係り，これは名詞修飾語nmodです．
 
-### soweli lon tomo mi li suwi.
+### soweli li lon tomo mi li suwi.
 
 ![soweli li lon tomo mi li suwi](./image/soweli_li_lon_tomo_mi_li_suwi.png)
 
